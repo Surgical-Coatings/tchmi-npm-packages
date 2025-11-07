@@ -3,7 +3,8 @@ module.exports = {
   entry: "./index.js",
   output: {
     filename: "npmPackages.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "../TwoScissorsHMI/Imports"),
+    clean: true,
   },
   mode: "production",
 };
